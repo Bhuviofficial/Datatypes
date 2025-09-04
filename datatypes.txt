@@ -1,0 +1,76 @@
+                   DATATYPES
+
+
+
+Definition :
+
+In javascript a data type defines the type of value that can be stored and manipulated in a program
+A data type in javascript is a classification that tells the interpreter what kind of  value a variable holds,such as number,strings,booleans,object,etc.
+
+Category :
+Primitive datatype
+Non primitive datatype
+
+Primitive datatype :
+			
+JavaScript has seven primitive data types — (Primitive Data type is predefined by the language and named by a reserved keyword.)
+
+Types : 	
+1. String
+2. Number
+3. Boolean
+4. Null
+5. Undefined
+6. Symbol
+7. BigInt
+
+Non primitive datatype :
+			
+Non-primitive data types, also known as reference types, are objects in JavaScript. Unlike primitive types, which store actual values, non-primitive types store references to the values. This means that when you manipulate a non-primitive type, you’re working with a reference to the original value, not a copy.
+
+ Types : 
+Objects
+Arrays
+Functions
+Data
+RegExp
+
+String : 
+		
+In javascript a string is a sequence of characters (letters,numbers,symbols)enclosed in single quotes(‘),(“).
+
+	
+Example:
+
+
+
+		//Using single  quotes
+		let name1=’hello’;
+				
+		//Using double quotes
+		let  name2=”javascript”;
+		
+		//OUTPUT
+ 		console.log(name1); // hello
+		console.log(name2); // javascript
+
+Arrays : 
+	
+In JavaScript, an array is a single variable that is used to store different elements. It is often used when we want to store a list of elements and access them by a single variable. It’s a more convenient way to store and structure information 
+	
+Example:
+				
+Arrays in javascript are ordered collections of values,which can be of any datatype.They are fundamental for storing and manipulating lists of related data.
+					
+		//Creating an array
+
+		let fruits=[“Apple”,”banana”,”mango”,”orange”];
+		
+		//Accessing array elements
+
+		console.log(fruits[0]);   //Output : Apple
+		console.log(fruits[2]);  //Output : Mango	
+
+
+
+	
